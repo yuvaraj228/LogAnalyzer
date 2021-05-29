@@ -1,0 +1,9 @@
+FROM app/pyspark-env:latest
+
+WORKDIR /
+
+# Pre-install base libraries
+#ADD app/* /app/
+
+RUN ls -ltr
+#RUN chmod 777 /app/*
